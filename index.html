@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Chat Box</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="header">
+                <!-- <div class="img-header"> -->
+                        <img class="icon-header" src="./img/TriggerPNG.png">
+                    <div class="profile-Header">
+                        <img class="profile-header-pics" src="./img/userImgPNG.png">
+                        <h2> Hannah</h2>
+                        <img class="online" src="./img/operatoOonline1.png">
+                        <p> Active 1h ago</p>
+                    </div>
+                <!-- </div> -->
+            </div>
+            <div class="converse-container">
+                    <!-- <div class="frameBot1">
+                        <img src="./img/bot.png">
+                        <div class="botMessage">
+                            <p id="botResponse">👋 Hi there! How can I help?</p>
+                        </div>
+                    </div>
+                    <div class="movLeft"></div>
+                    <div class="movRight">
+                        <p class="userP">I'm sorry bot, but you're wrong</p>
+                    </div>
+                    <div class="movRight2">
+                        <p class="userP">Can I talk to someone?</p>
+                    </div>
+                    <div class="frameBot2">
+                        <img src="./img/bot.png">
+                        <div class="botMessage1">
+                            <p>No problem! Let me connect you to <br> a customer support agent.</p>
+                        </div>
+                    </div>
+                    <div class="Hucontainer">
+                        <img src="./img/userImgPNG.png">
+                        <div class="Hucontainer1">
+                            <div class="HucontainerText">
+                                <p>Hi there! I'm Hannah. 
+                                    <br>
+                                    <br>
+                                    How can I help you?
+                                </p>
+                            </div>
+                            <p class="messageTime">Hannah・Just now</p>
+                        </div>
+                    </div>
+                    <div class="containerUser">
+                        <div class="containerUser-Text">
+                            <p class="userP">Oh finally a human, wohoo!</p>
+                        </div>
+                        <p class="messageTime">Just now・Not seen yet</p>
+                    </div> -->
+                    
+                </div>  
+                <div id="input-container">
+                        <input type="text" id="user-input" placeholder="Type a reply...">
+                     
+                    <div id="inputIcons-Container">
+                          <img src="./img/Chips Text1.png" alt="Icon 1">
+                          <img src="./img/Chips Text2.png" alt="Icon 2">
+                          <img src="./img/Chips Text3.png" alt="Icon 3">
+                    </div>
+                  </div>  
+                </div>
+            </div>
+    </div>
+    <div class="containerTrigger" id="trigger">
+        <img src="./img/TriggerPNG.png" onclick="toggleConversation()">
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
